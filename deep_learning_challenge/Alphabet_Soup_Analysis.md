@@ -77,6 +77,11 @@ The initial model yielded the following results:
 
 ## Model Optimization
 
+### Amending grouping of Features: `APPLICATION_TYPE` and `CLASSIFICATION`
+
+Changes were made to the grouping of outliers, where they were removed entirely, enlarged and reduced, which did not yield any more accuracy.
+
+
 ### Removal of Columns
 
 For each object-type feature, I tried removing that column and running the same model with no gains in accuracy.
